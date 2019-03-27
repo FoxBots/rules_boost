@@ -125,7 +125,7 @@ def boost_deps():
         http_archive(
             name = "boost",
             urls = [
-                "https://%s.dl.sourceforge.net/project/boost/boost/1.67.0/boost_1_67_0.tar.gz" % m
+                "https://%s.dl.sourceforge.net/project/boost/boost/1.63.0/boost_1_63_0.tar.gz" % m
                 for m in SOURCEFORGE_MIRRORS
             ],
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
