@@ -130,5 +130,5 @@ def boost_deps():
             ],
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
             strip_prefix = "boost_1_66_0",
-            sha256 = "fe34a4e119798e10b8cc9e565b3b0284e9fd3977ec8a1b19586ad1dec397088b",
+            sha256 = "bd0df411efd9a585e5a2212275f8762079fed8842264954675a4fddc46cfcf60",
         )
