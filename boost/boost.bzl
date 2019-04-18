@@ -61,9 +61,9 @@ def boost_library(name, defines=None, includes=None, hdrs=None, srcs=None, deps=
 def boost_deps():
   native.new_http_archive(
     name = "boost",
-    url = "https://nelhage.s3.amazonaws.com/rules_boost/boost_1_63_0.tar.bz2",
+    url = "https://phoenixnap.dl.sourceforge.net/project/boost/boost/1.65.1/boost_1_65_1.tar.gz",
     build_file = "@com_github_nelhage_boost//:BUILD.boost",
-    type = "tar.bz2",
-    strip_prefix = "boost_1_63_0/",
-    sha256 = "beae2529f759f6b3bf3f4969a19c2e9d6f0c503edcb2de4a61d1428519fcb3b0",
+    type = "tar.gz",
+    strip_prefix = "boost_1_65_1/",
+    sha256 = "a13de2c8fbad635e6ba9c8f8714a0e6b4264b60a29b964b940a22554705b6b60",
   )
